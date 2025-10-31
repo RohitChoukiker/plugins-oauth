@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "AI Rohit World",
+  "version": "2.0.0",
+  "description": "A stylish Chrome extension with Google OAuth login and a custom welcome screen.",
+  "icons": {
+    "48": "icon.jpg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AIRohit World"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "oauth2": {
+    "client_id": "__CLIENT_ID__",
+    "scopes": [
+      "openid",
+      "email",
+      "profile",
+      "https://www.googleapis.com/auth/userinfo.email"
+    ]
+  }
+}
