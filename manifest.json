@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "AIRohit World",
-  "version": "2.0.0",
-  "description": "A stylish Chrome extension with Google OAuth",
+  "version": "2.1.0",
+  "description": "A stylish Chrome extension with Google OAuth login and a custom welcome screen.",
   "icons": {
-    "48": "icon.jpg"
+    "48": "icon.png"
   },
   "action": {
     "default_popup": "popup.html",
